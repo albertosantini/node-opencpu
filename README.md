@@ -1,0 +1,4 @@
+node-opencpu
+============
+
+OpenCPU client
