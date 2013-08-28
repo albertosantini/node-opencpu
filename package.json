@@ -1,0 +1,21 @@
+{
+  "name": "opencpu",
+  "description": "OpenCPU client",
+  "version": "0.1.0",
+  "main": "index",
+  "repository": "http://github.com/albertosantini/node-opencpu",
+  "keywords": [
+    "OpenCPU",
+    "R framework"
+  ],
+  "author": "Alberto Santini",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
