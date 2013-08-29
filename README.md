@@ -43,3 +43,11 @@ To install with [npm](http://github.com/isaacs/npm):
     npm install opencpu
 
 Tested with node 0.10.17 and OpenCPU 1.0.0.
+
+Don't forget to start the opencpu server. For instance, from R console, after
+installing the package opencpu:
+
+    > library(opencpu)
+    Initiating OpenCPU server...
+    [httpuv] http://localhost:5307/ocpu
+    OpenCPU single-user server ready.
