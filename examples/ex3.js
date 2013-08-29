@@ -10,7 +10,7 @@ opencpu.packages.getInfo("MASS", function (err, data) {
     }
 });
 
-opencpu.packages.getObjectsList("MASS", function (err, data) {
+opencpu.packages.getExportedObjects("MASS", function (err, data) {
     if (!err) {
         console.log(data);
     } else {
