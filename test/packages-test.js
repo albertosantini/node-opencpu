@@ -12,7 +12,7 @@ describe("Packages test:", function () {
         it("should find Information word", function (done) {
             opencpu.packages.getInfo("MASS", function (err, data) {
                 if (!err) {
-                    assert.equal(4, /Information/.exec(data).index);
+                    assert.ok(/Information/.test(data));
                 } else {
                     throw err;
                 }
@@ -25,7 +25,7 @@ describe("Packages test:", function () {
         it("should find addterm object", function (done) {
             opencpu.packages.getExportedObjects("MASS", function (err, data) {
                 if (!err) {
-                    assert.equal(18, /addterm/.exec(data).index);
+                    assert.ok(/addterm/.test(data));
                 } else {
                     throw err;
                 }
