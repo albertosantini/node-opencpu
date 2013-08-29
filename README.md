@@ -45,9 +45,17 @@ To install with [npm](http://github.com/isaacs/npm):
 Tested with node 0.10.17 and OpenCPU 1.0.0.
 
 Don't forget to start the opencpu server. For instance, from R console, after
-installing the package opencpu:
+installing the package opencpu. The OpenCPU server will automatically be started
+when the opencpu package is attached. By default, the server starts at a random
+port. The default port used by node-opencpu is 5307.
 
     > library(opencpu)
     Initiating OpenCPU server...
-    [httpuv] http://localhost:5307/ocpu
+    [httpuv] http://localhost:6253/ocpu
     OpenCPU single-user server ready.
+
+    > opencpu$stop()
+    OpenCPU stopped.
+
+    > opencpu$(5307)
+    [httpuv] http://localhost:5307/ocpu
