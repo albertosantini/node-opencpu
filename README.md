@@ -42,4 +42,4 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install opencpu
 
-Tested with node 0.10.17 and R 3.0.1.
+Tested with node 0.10.17 and OpenCPU 1.0.0.
