@@ -1,21 +1,29 @@
 {
-  "name": "opencpu",
-  "description": "OpenCPU client",
-  "version": "0.2.0",
-  "main": "index",
-  "repository": "http://github.com/albertosantini/node-opencpu",
-  "keywords": [
-    "OpenCPU",
-    "R framework"
-  ],
-  "author": "Alberto Santini",
-  "license": "MIT",
-  "engines": {
-    "node": ">=0.10.x"
-  },
-  "dependencies": {
-    "request": "~2.27.0"
-  },
-  "scripts": {},
-  "devDependencies": {}
+    "name": "opencpu",
+    "description": "OpenCPU client",
+    "version": "0.2.0",
+    "main": "index",
+    "repository": "http://github.com/albertosantini/node-opencpu",
+    "keywords": [
+        "OpenCPU",
+        "R framework"
+        ],
+    "author": "Alberto Santini",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10.x"
+    },
+    "dependencies": {
+        "request": "~2.27.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "devDependencies": {
+        "grunt-cli": "~0.1.9",
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.3",
+        "grunt-mocha-test": "~0.6.3",
+        "mocha": "~1.12.0"
+    }
 }
