@@ -7,23 +7,23 @@
     "keywords": [
         "OpenCPU",
         "R framework"
-        ],
+    ],
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
         "node": ">=0.10.x"
     },
     "dependencies": {
-        "request": "~2.27.0"
+        "request": "~2.30.0"
     },
     "scripts": {
         "test": "grunt"
     },
     "devDependencies": {
-        "grunt-cli": "~0.1.9",
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.6.4",
-        "grunt-mocha-test": "~0.7.0",
-        "mocha": "~1.13.0"
+        "grunt-cli": "~0.1.11",
+        "grunt": "~0.4.2",
+        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-mocha-test": "~0.8.1",
+        "mocha": "~1.15.1"
     }
 }

@@ -13,7 +13,7 @@ describe("Raw test:", function () {
             opencpu.rCall("/library/datasets/R/mtcars/json", {},
                 function (err, data) {
                     if (!err) {
-                        assert.equal(42, data.mpg[0] + data.mpg[1]);
+                        assert.equal(42, data[0].mpg + data[1].mpg);
                     } else {
                         throw err;
                     }
