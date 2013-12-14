@@ -1,7 +1,7 @@
 {
     "name": "opencpu",
     "description": "OpenCPU client",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "main": "index",
     "repository": "http://github.com/albertosantini/node-opencpu",
     "keywords": [
@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": ">=0.10.x"
+        "node": "~0.10.23"
     },
     "dependencies": {
         "request": "~2.30.0"
