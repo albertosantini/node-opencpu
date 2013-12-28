@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": "~0.10.23"
+        "node": "~0.10.24"
     },
     "dependencies": {
         "request": "~2.30.0"
@@ -22,8 +22,8 @@
     "devDependencies": {
         "grunt-cli": "~0.1.11",
         "grunt": "~0.4.2",
-        "grunt-contrib-jshint": "~0.7.2",
+        "grunt-contrib-jshint": "~0.8.0",
         "grunt-mocha-test": "~0.8.1",
-        "mocha": "~1.15.1"
+        "mocha": "~1.16.2"
     }
 }
