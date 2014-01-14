@@ -14,7 +14,7 @@
         "node": "~0.10.24"
     },
     "dependencies": {
-        "request": "~2.30.0"
+        "request": "~2.31.0"
     },
     "scripts": {
         "test": "grunt"
@@ -24,6 +24,6 @@
         "grunt": "~0.4.2",
         "grunt-contrib-jshint": "~0.8.0",
         "grunt-mocha-test": "~0.8.1",
-        "mocha": "~1.16.2"
+        "mocha": "~1.17.0"
     }
 }
