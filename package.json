@@ -20,10 +20,10 @@
         "test": "grunt"
     },
     "devDependencies": {
-        "grunt-cli": "~0.1.11",
+        "grunt-cli": "~0.1.13",
         "grunt": "~0.4.2",
         "grunt-contrib-jshint": "~0.8.0",
         "grunt-mocha-test": "~0.8.2",
-        "mocha": "~1.17.0"
+        "mocha": "~1.17.1"
     }
 }
