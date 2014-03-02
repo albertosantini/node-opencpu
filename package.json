@@ -23,7 +23,7 @@
         "grunt-cli": "~0.1.13",
         "grunt": "~0.4.2",
         "grunt-contrib-jshint": "~0.8.0",
-        "grunt-mocha-test": "~0.9.3",
+        "grunt-mocha-test": "~0.9.4",
         "mocha": "~1.17.1"
     }
 }
