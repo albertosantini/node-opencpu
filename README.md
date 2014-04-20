@@ -42,7 +42,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install opencpu
 
-Tested with node 0.10.24 and OpenCPU 1.2.1.
+Tested with node 0.10.x and OpenCPU 1.4.0 (with R 3.1.0).
 
 Don't forget to start the opencpu server. For instance, from R console, after
 installing the package opencpu. The OpenCPU server will automatically be started
@@ -51,11 +51,16 @@ port. The default port used by node-opencpu is 5307.
 
     > library(opencpu)
     Initiating OpenCPU server...
-    [httpuv] http://localhost:6253/ocpu
+    Creating new config file: C:\Users\icebox\Documents/.opencpu.conf
+    OpenCPU started.
+    [httpuv] http://localhost:5985/ocpu
     OpenCPU single-user server ready.
-
     > opencpu$stop()
     OpenCPU stopped.
-
     > opencpu$start(5307)
+    Using config: C:\Users\icebox\Documents/.opencpu.conf
+    OpenCPU started.
     [httpuv] http://localhost:5307/ocpu
+    Warning message:
+    closing unused connection 3 (<-icebox-vpcz1:11823)
+    >

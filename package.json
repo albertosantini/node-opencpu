@@ -1,7 +1,7 @@
 {
     "name": "opencpu",
     "description": "OpenCPU client",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "main": "index",
     "repository": "http://github.com/albertosantini/node-opencpu",
     "keywords": [
@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": "~0.10.24"
+        "node": "~0.10.x"
     },
     "dependencies": {
         "request": "~2.34.0"
@@ -22,7 +22,7 @@
     "devDependencies": {
         "grunt": "~0.4.4",
         "grunt-cli": "~0.1.13",
-        "grunt-contrib-jshint": "~0.9.2",
-        "grunt-mocha-test": "~0.10.0"
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-mocha-test": "~0.10.2"
     }
 }
