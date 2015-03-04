@@ -14,7 +14,7 @@
         "node": "~0.10.x"
     },
     "dependencies": {
-        "request": "~2.51.0"
+        "request": "~2.53.0"
     },
     "scripts": {
         "test": "grunt"
@@ -22,7 +22,7 @@
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-cli": "~0.1.13",
-        "grunt-contrib-jshint": "~0.10.0",
-        "grunt-mocha-test": "~0.12.4"
+        "grunt-mocha-test": "~0.12.7",
+        "grunt-eslint": "~7.0.1"
     }
 }
