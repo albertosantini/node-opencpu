@@ -23,6 +23,6 @@
         "grunt": "~0.4.5",
         "grunt-cli": "~0.1.13",
         "grunt-mocha-test": "~0.12.7",
-        "grunt-eslint": "~10.0.0"
+        "grunt-eslint": "~12.0.0"
     }
 }
