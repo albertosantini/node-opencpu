@@ -1,7 +1,7 @@
 {
     "name": "opencpu",
     "description": "OpenCPU client",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "main": "index",
     "repository": "http://github.com/albertosantini/node-opencpu",
     "keywords": [
