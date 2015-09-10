@@ -10,7 +10,7 @@ describe("Raw test:", function () {
 
     describe("mtcars json object", function () {
         it("should return the sum of the first two elements", function (done) {
-            opencpu.rCall("/library/datasets/R/mtcars/json", {},
+            opencpu.rCall("/library/datasets/R/mtcars/json", null,
                 function (err, data) {
                     if (!err) {
                         assert.equal(42, data[0].mpg + data[1].mpg);
@@ -40,4 +40,26 @@ describe("Raw test:", function () {
         });
     });
 
+    describe("session", function () {
+        it("should return a session id", function (done) {
+            opencpu.rCall("/library/MASS/scripts/ch01.R", {},
+                function (error, sessionId) {
+                    if (!error) {
+                        opencpu.rCall("/tmp/" + sessionId +
+                            "/files/DESCRIPTION", null, function (err, data) {
+                                var isPackageSession;
+
+                                if (!err) {
+                                    isPackageSession = data.
+                                        search("Package: " + sessionId) >= 0;
+                                    assert.equal(true, isPackageSession);
+                                }
+                                done();
+                            }, config.getOptions());
+                    } else {
+                        throw error;
+                    }
+                }, config.getOptions());
+        });
+    });
 });
