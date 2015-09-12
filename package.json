@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": "~0.10.x"
+        "node": "~0.12.x"
     },
     "dependencies": {
         "request": "~2.61.0"
