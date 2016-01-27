@@ -42,7 +42,7 @@ To install with [npm](http://github.com/isaacs/npm):
 
     npm install opencpu
 
-Tested with Node.js 4.0.x and OpenCPU 1.4.6 (with R 3.2.2).
+Tested with Node.js 5.x and OpenCPU 1.5.1 (with R 3.2.3).
 
 Don't forget to start the opencpu server. For instance, from R console, after
 installing the package opencpu. The OpenCPU server will automatically be started
