@@ -1,37 +1,27 @@
-/*global describe, it */
-
 "use strict";
 
-var opencpu = require("../lib/opencpu"),
-    config = require("./opencpu-config"),
-    assert = require("assert");
+var test = require("tape"),
+    opencpu = require("../lib/opencpu"),
+    config = require("./opencpu-config");
 
-describe("Packages test:", function () {
+test("MASS getInfo", function (t) {
+    opencpu.packages.getInfo("MASS", function (err, data) {
+        if (!err) {
+            t.ok(/Information/.test(data));
+        } else {
+            t.fail(err);
+        }
+        t.end();
+    }, "/library/", config.getOptions());
+});
 
-    describe("MASS getInfo", function () {
-        it("should find Information word", function (done) {
-            opencpu.packages.getInfo("MASS", function (err, data) {
-                if (!err) {
-                    assert.ok(/Information/.test(data));
-                } else {
-                    throw err;
-                }
-                done();
-            }, "/library/", config.getOptions());
-        });
-    });
-
-    describe("MASS getExportedObjects", function () {
-        it("should find addterm object", function (done) {
-            opencpu.packages.getExportedObjects("MASS", function (err, data) {
-                if (!err) {
-                    assert.ok(/addterm/.test(data));
-                } else {
-                    throw err;
-                }
-                done();
-            }, "/library/", config.getOptions());
-        });
-    });
-
+test("MASS getExportedObjects", function (t) {
+    opencpu.packages.getExportedObjects("MASS", function (err, data) {
+        if (!err) {
+            t.ok(/addterm/.test(data));
+        } else {
+            t.fail(err);
+        }
+        t.end();
+    }, "/library/", config.getOptions());
 });
