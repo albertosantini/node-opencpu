@@ -3,7 +3,6 @@ NODE-OPENCPU
 
 [![Build Status](https://travis-ci.org/albertosantini/node-opencpu.png)](https://travis-ci.org/albertosantini/node-opencpu)
 [![NPM version](https://badge.fury.io/js/opencpu.png)](http://badge.fury.io/js/opencpu)
-[![NGN Dependencies](https://david-dm.org/albertosantini/node-opencpu.png)](https://david-dm.org/albertosantini/node-opencpu)
 
 node-opencpu is a [OpenCPU](https://public.opencpu.org/) client.
 
