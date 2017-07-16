@@ -14,7 +14,7 @@
         "node": ">=0.12.x"
     },
     "dependencies": {
-        "request": "~2.74.0"
+        "request": "^2.81.0"
     },
     "scripts": {
         "test": "npm run lint && npm run tape",
@@ -22,8 +22,7 @@
         "tape": "tape test/*-test.js"
     },
     "devDependencies": {
-        "eslint": "^3.1.1",
-        "eslint-config-eslint": "~3.0.0",
-        "tape": "~4.6.0"
+        "eslint": "^4.2.0",
+        "tape": "^4.7.0"
     }
 }
