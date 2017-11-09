@@ -34,7 +34,6 @@ Example
 Installation
 ============
 
-[![NPM](https://nodei.co/npm/opencpu.png?downloads=true)](https://nodei.co/npm/opencpu/)
 [![NPM](https://nodei.co/npm-dl/opencpu.png)](https://nodei.co/npm/opencpu/)
 
 To install with [npm](http://github.com/isaacs/npm):
