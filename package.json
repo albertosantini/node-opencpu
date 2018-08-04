@@ -14,7 +14,7 @@
         "node": ">=8.x"
     },
     "dependencies": {
-        "request": "^2.85.0"
+        "https-proxy-agent": "^2.2.1"
     },
     "scripts": {
         "test": "npm run lint && npm run tape",
@@ -22,7 +22,7 @@
         "tape": "tape test/*-test.js"
     },
     "devDependencies": {
-        "eslint": "^4.19.1",
-        "tape": "^4.9.0"
+        "eslint": "^5.3.0",
+        "tape": "^4.9.1"
     }
 }
