@@ -1,11 +1,12 @@
 "use strict";
 
-var opencpu = require("../lib/opencpu");
+const opencpu = require("../lib/opencpu");
+const { log } = require("../lib/util");
 
-opencpu.rCall("/library/datasets/R/mtcars/json", {}, function (err, data) {
+opencpu.rCall("/library/datasets/R/mtcars/json", {}, (err, data) => {
     if (!err) {
-        console.log(data[0].mpg + data[1].mpg); // => 42
+        log(data[0].mpg + data[1].mpg); // => 42
     } else {
-        console.log("opencpu call failed:", err);
+        log("opencpu call failed:", err);
     }
 });

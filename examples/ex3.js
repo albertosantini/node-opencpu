@@ -1,19 +1,20 @@
 "use strict";
 
-var opencpu = require("../lib/opencpu");
+const opencpu = require("../lib/opencpu");
+const { log } = require("../lib/util");
 
-opencpu.packages.getInfo("MASS", function (err, data) {
+opencpu.packages.getInfo("MASS", (err, data) => {
     if (!err) {
-        console.log(data);
+        log(data);
     } else {
-        console.log("opencpu call failed.");
+        log("opencpu call failed.");
     }
 });
 
-opencpu.packages.getExportedObjects("MASS", function (err, data) {
+opencpu.packages.getExportedObjects("MASS", (err, data) => {
     if (!err) {
-        console.log(data);
+        log(data);
     } else {
-        console.log("opencpu call failed.");
+        log("opencpu call failed.");
     }
 });

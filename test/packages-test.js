@@ -1,11 +1,11 @@
 "use strict";
 
-var test = require("tape"),
-    opencpu = require("../lib/opencpu"),
-    config = require("./opencpu-config");
+const test = require("tape");
+const opencpu = require("../lib/opencpu");
+const config = require("./opencpu-config");
 
-test("MASS getInfo", function (t) {
-    opencpu.packages.getInfo("MASS", function (err, data) {
+test("MASS getInfo", t => {
+    opencpu.packages.getInfo("MASS", (err, data) => {
         if (!err) {
             t.ok(/Information/.test(data));
         } else {
@@ -15,8 +15,8 @@ test("MASS getInfo", function (t) {
     }, "/library/", config.getOptions());
 });
 
-test("MASS getExportedObjects", function (t) {
-    opencpu.packages.getExportedObjects("MASS", function (err, data) {
+test("MASS getExportedObjects", t => {
+    opencpu.packages.getExportedObjects("MASS", (err, data) => {
         if (!err) {
             t.ok(/addterm/.test(data));
         } else {

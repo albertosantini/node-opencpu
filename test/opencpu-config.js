@@ -1,10 +1,10 @@
 "use strict";
 
 function getOptions() {
-    var isCI = process.env.CI === "true",
-        remoteServer = "https://public.opencpu.org",
-        localServer = "http://localhost:5307",
-        options = {};
+    const isCI = process.env.CI === "true";
+    const remoteServer = "https://public.opencpu.org";
+    const localServer = "http://localhost:5307";
+    const options = {};
 
     options.server = isCI ? remoteServer : localServer;
 

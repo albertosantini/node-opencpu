@@ -1,15 +1,16 @@
 "use strict";
 
-var opencpu = require("../lib/opencpu");
+const opencpu = require("../lib/opencpu");
+const { log } = require("../lib/util");
 
 opencpu.rCall("/library/stats/R/rnorm/json", {
     n: 42,
     mean: 10,
     sd: 10
-}, function (err, data) {
+}, (err, data) => {
     if (!err) {
-        console.log(data.length); // => 42
+        log(data.length); // => 42
     } else {
-        console.log("opencpu call failed.");
+        log("opencpu call failed.");
     }
 });
