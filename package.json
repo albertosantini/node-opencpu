@@ -11,7 +11,7 @@
     "author": "Alberto Santini",
     "license": "MIT",
     "engines": {
-        "node": ">=0.12.x"
+        "node": ">=8.x"
     },
     "dependencies": {
         "request": "^2.85.0"
