@@ -1,3 +1,10 @@
+1.1.0 / 2018-08-04
+==================
+
+* Update the basecode to ES2015 standard.
+* Remove request package from deps anduse a custom util.
+* Update deps.
+
 1.0.2 / 2017-11-09
 ==================
 
