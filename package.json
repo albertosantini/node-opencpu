@@ -22,7 +22,7 @@
         "tape": "tape test/*-test.js"
     },
     "devDependencies": {
-        "eslint": "^5.3.0",
+        "eslint": "^5.10.0",
         "tape": "^4.9.1"
     }
 }
