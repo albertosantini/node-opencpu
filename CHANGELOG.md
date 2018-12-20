@@ -1,3 +1,8 @@
+1.1.1 / 2018-12=20
+==================
+
+* Allowing additional parameters for json call parse (thanks to @pilare).
+
 1.1.0 / 2018-08-04
 ==================
 
