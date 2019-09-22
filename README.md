@@ -1,8 +1,8 @@
 NODE-OPENCPU
 ============
 
-[![Build Status](https://travis-ci.org/albertosantini/node-opencpu.png)](https://travis-ci.org/albertosantini/node-opencpu)
 [![NPM version](https://badge.fury.io/js/opencpu.png)](http://badge.fury.io/js/opencpu)
+![](https://github.com/albertosantini/node-opencpu/workflows/CI/badge.svg)
 
 node-opencpu is a [OpenCPU](https://public.opencpu.org/) client.
 
